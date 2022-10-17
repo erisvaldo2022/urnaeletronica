@@ -111,11 +111,26 @@ Inicio
 
       ate(resposta = "s")
 
+      escolha voto
+      caso numeroCandidato1
+         contCandidato1 <- contCandidato1 + 1
+      caso numeroCandidato2
+         contCandidato2 <- contCandidato2 + 1
+      caso numeroCandidato3
+         contCandidato3 <- contCandidato3 + 1
+      caso 0
+         contBranco <- contBranco + 1
+      outrocaso
+         contNulo <- contNulo + 1
+      fimescolha
+
       escreva("Ainda tem eleitor para votar? (s) ou (n): ")
       leia(resposta)
 
    ate(resposta <> "s")
 
+   limpatela
+   
    escreval("===========BOLETIM DE URNA===========")
    escreval(numeroCandidato1, " - ", nomeCandidato1, ": ", contCandidato1)
    escreval(numeroCandidato2, " - ", nomeCandidato2, ": ", contCandidato2)
