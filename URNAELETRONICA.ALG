@@ -65,4 +65,19 @@ Inicio
    escreval(" 0 - Brancos: ", contBranco)
    escreval(" Votos nulos: ", contNulo)
 
+   escreval(" ")
+   escreva("Iniciando a eleição.")
+
+   timer(500)
+
+   para i de 0 ate 10 passo 1 faca
+      escreva(".")
+   fimpara
+
+   timer(0)
+
+   limpatela
+
+
+
 Fimalgoritmo
