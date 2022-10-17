@@ -91,4 +91,11 @@ Inicio
 
    ate(resposta <> "s")
 
+   escreval("===========BOLETIM DE URNA===========")
+   escreval(numeroCandidato1, " - ", nomeCandidato1, ": ", contCandidato1)
+   escreval(numeroCandidato2, " - ", nomeCandidato2, ": ", contCandidato2)
+   escreval(numeroCandidato3, " - ", nomeCandidato3, ": ", contCandidato3)
+   escreval(" 0 - Brancos: ", contBranco)
+   escreval(" Votos nulos: ", contNulo)
+
 Fimalgoritmo
