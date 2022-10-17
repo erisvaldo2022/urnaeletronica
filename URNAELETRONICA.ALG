@@ -91,6 +91,21 @@ Inicio
          leia(voto)
          escreva(" ")
 
+         escolha voto
+         caso numeroCandidato1
+            escreval(numeroCandidato1, " - ", nomeCandidato1)
+         caso numeroCandidato2
+            escreval(numeroCandidato2, " - ", nomeCandidato2)
+         caso numeroCandidato3
+            escreval(numeroCandidato3, " - ", nomeCandidato3)
+         caso 0
+            escreval("0 - Voto em branco")
+         outrocaso
+            escreval("Voto em nulo")
+         fimescolha
+
+         escreva(" ")
+
          escreva("Deseja confirmar o seu voto? (s) ou (n): ")
          leia(resposta)
 
